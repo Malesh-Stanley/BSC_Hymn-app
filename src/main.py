@@ -1,0 +1,11 @@
+import flet as ft
+
+from my_app.app import build_app
+
+
+def main(page: ft.Page):
+    build_app(page)
+
+
+if __name__ == "__main__":
+    ft.run(main)
